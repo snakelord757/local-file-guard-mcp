@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "local-file-guard": {
+      "command": "D:\\CodexGateaway\\.venv\\Scripts\\python.exe",
+      "args": ["D:\\CodexGateaway\\run_server.py", "--config", "D:\\CodexGateaway\\config.json"]
+    }
+  }
+}

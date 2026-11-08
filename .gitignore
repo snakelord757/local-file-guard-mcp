@@ -1,0 +1,30 @@
+# Local environment and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+config.json
+*.pem
+*.key
+# User documents and audit
+data/
+inbox/*
+!inbox/example.txt
+*.sqlite3
+*.sqlite3-*
+# Test outputs and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.test-*/
+test-results*.xml
+RESULTS.md
+.coverage
+htmlcov/
+# Local tooling
+.codex/
+.agents/
+.tools/
+.vscode/
+.idea/
